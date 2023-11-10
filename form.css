@@ -1,0 +1,39 @@
+body {
+    display: grid;
+    place-items: center;
+    background: linear-gradient(270deg, #ff23d7, #5750ff);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+ul li {
+    margin: 0 15px;
+}
+
+hr {
+    width: 80%;
+    margin: 20px auto;
+}
+
+textarea {
+    width: 50%;
+    resize: vertical;
+}
